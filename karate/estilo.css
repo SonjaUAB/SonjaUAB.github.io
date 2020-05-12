@@ -1,0 +1,146 @@
+/*Div's e Secções ----------------------------------------------------------------------------------------------------*/
+body{
+    font-family: "Javanese Text", Helvetica, SansSerif, serif;
+    background-image: url("imagens/background4.jpg");
+}
+
+header{
+    width: 80%;
+    height: 300px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    background-image: url("imagens/unnamed2.jpg");
+}
+
+#navegador{
+    width:100%;
+    height: 40px;
+    margin-left: 2%;
+    margin-bottom: 30px;
+    position: fixed;
+    top: 0;
+}
+
+#conteudo{
+    width: 80%;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom: 20px;
+    background-color: rgba(230, 173, 172,0.75);
+   }
+
+/* Títulos de vários níveis e parágrafos e outros-------------------------------------------------------------------- */
+h1{
+    color:rgba(255, 76, 92,0.75);
+    font-size: 60px;
+    text-shadow: 2px 2px 4px grey;
+    padding-top: 1%;
+}
+h1:hover{
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+h2{
+    color: #9B1B30;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 4px grey
+}
+h3{
+    color: #2F4F4F;
+    font-size: 30px;
+    text-align: center;
+}
+h4{
+    font-size: 20px;
+    text-align: center;
+}
+h5{
+    font-size:20px;
+    color: black;
+    margin-left:10%;
+}
+
+a{
+  text-align: center;
+}
+
+p{
+  color: black;
+  padding: 15px;
+  text-align: justify;
+}
+
+tr{
+    text-shadow: grey;
+    background-color: rgba(230, 173, 172,0.75);
+}
+
+td{
+    border-color: #9B1B30;
+    border-style: solid;
+}
+
+th{
+    border-color: #9B1B30;
+    border-style: solid;
+}
+
+/* Subtítulo----------------------------------------------------------------------------------------------------------*/
+#sub{
+    color: #9B1B30;
+    font-size: 40px;
+    padding-left: 55%;
+}
+#sub:hover{
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    text-shadow: 0 0 3px #9B1B30;
+}
+/*Imagens-------------------------------------------------------------------------------------------------------------*/
+#imag{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-radius: 20px;
+}
+
+#logo{
+    height: 300px;
+    float: left;
+    padding-right: 100px;
+}
+/*Botões--------------------------------------------------------------------------------------------------------------*/
+.botao{
+    font-family: "Javanese Text", Helvetica, SansSerif, serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700px;
+    border:none;
+    padding: 3px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    width: 18%;
+}
+
+.botao-cor{
+    background-color: #f0a8b4;
+    color: #2F4F4F;
+    border-style: double;
+    border-color: #9B1B30;
+}
+
+.botao-cor:hover {
+    background-color: crimson;
+    color: #2F4F4F;
+}
+
+/* Fim do ficheiro estilo.css ----------------------------------------------------------------------------------------*/
+
+
