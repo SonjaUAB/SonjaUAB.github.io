@@ -1,0 +1,164 @@
+<!-- ******************************************Sónia Violante, nº 1100135******************************************* -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Estrela D'art - Loja</title>
+    <link href="estilo.css" rel="stylesheet">
+    <script src="cookies.js"></script>
+    <script src="login.js"></script>
+    <script src="carrinho.js"></script>
+    <script src="registo.js"></script>
+</head>
+<body >
+<!-- NAVEGAÇÃO  *****************************************************************************************************-->
+<div id="header">
+    <a href="index.html">
+        <img class="logo" alt="Logotipo estrela" src="img/logo3.jpg"  onMouseOVer="this.src='img/starfish3.png';"
+             onMouseOut="this.src='img/logo3.jpg';"/>
+    </a>
+    <ul>
+        <li>
+            <a href="carrinho.html"> <img class="mini" style="margin-top: 40%" src="img/adicionar.png"></a>
+        </li>
+        <li>
+            <a href="inscricao.html"><p class="hiper">Registar na Estrela</p></a>
+        </li>
+        <li>
+            <a href="login.html"><p class="hiper">Login</p></a>
+        </li>
+        <li>
+            <a href="produtos.html"><p class="hiper">Os produtos da Estrela</p></a>
+        </li>
+    </ul>
+</div>
+<!-- LOJA  ********************   Navegador Loja ********************************************************************-->
+        <div class="barra cor loja">
+            <table class="prod">
+                <tr>
+                    <th><a href="#mcp"><img class="star" alt="estrela" src="img/starfish.png"
+                                            onMouseOVer="this.src='img/starfish2A.png';" onMouseOut="this.src='img/starfish.png';"></a>
+                    </th>
+                    <th><a href="#cb"><img class="star"  alt="estrela" src="img/starfish.png"
+                                           onMouseOVer="this.src='img/starfish2B.png';" onMouseOut="this.src='img/starfish.png';"></a>
+                    </th>
+                    <th><a href="#alm"><img class="star" alt="estrela" src="img/starfish.png"
+                                            onMouseOVer="this.src='img/starfish2C.png';" onMouseOut="this.src='img/starfish.png';"></a>
+                    </th>
+                </tr>
+            </table>
+        </div>
+<!-- LOJA  *********************   Malas, Carteiras e Porta Chaves  **************************************************-->
+        <div class="barra star2">
+            <h1 style="margin-top:30px;" id="mcp">Malas, Carteiras e Porta Chaves</h1>
+        </div>
+        <div class="barra cor">
+            <table class="prod">
+                <tr>
+                    <th>
+                        <figure>
+                        <img class="imgloja" src="img/mala1.jpg" onMouseOVer="this.src='img/mala2.jpg';"
+                             onMouseOut="this.src='img/mala1.jpg';"/>
+                        <figcaption>Mala Frida - 30€</figcaption>
+                        <img class="mini" src="img/adicionar.png" alt="Adicionar Item" onclick="CarAdd('malafrida')">
+                        </figure>
+                    </th>
+                    <th>
+                        <figure>
+                            <img class="imgloja" src="img/carteira1.jpg" onMouseOVer="this.src='img/carteira2.jpg';"
+                                 onMouseOut="this.src='img/carteira1.jpg';"/>
+                            <figcaption>Carteira Azul - 15€</figcaption>
+                            <img class="mini" src="img/adicionar.png" alt="Adicionar Item" onclick="CarAdd('cartazul')">
+                        </figure>
+                    </th>
+                    <th>
+                        <figure>
+                            <img class="imgloja" src="img/pchaves1.jpg" onMouseOVer="this.src='img/pchaves2.jpg';"
+                                 onMouseOut="this.src='img/pchaves1.jpg';"/>
+                            <figcaption>Porta-chaves - 8€</figcaption>
+                            <img class="mini" src="img/adicionar.png" alt="Adicionar Item" onclick="CarAdd('pchaves')">
+                        </figure>
+                    </th>
+                </tr>
+            </table>
+        </div>
+<!-- LOJA **************************  Conjuntos de Bebé  **********************************************************  -->
+        <div class="barra star2" >
+             <h1 style="margin-top: 30px;" id="cb">Conjuntos de Bebé</h1>
+        </div>
+        <div class="barra cor">
+            <table class="prod">
+                <tr>
+                    <th>
+                        <figure>
+                            <img class="imgloja" src="img/babeteboy1.jpg" onMouseOVer="this.src='img/babeteboy2.jpg';"
+                                 onMouseOut="this.src='img/babeteboy1.jpg';"/>
+                            <figcaption>Conj. Rapaz - 30€</figcaption>
+                            <img class="mini" src="img/adicionar.png" alt="Adicionar Item" onclick="CarAdd('conjrapaz')">
+                        </figure>
+                    </th>
+                    <th>
+                        <figure>
+                            <img class="imgloja" src="img/babetegirl1.jpg" onMouseOVer="this.src='img/babetegirl2.jpg';"
+                                 onMouseOut="this.src='img/babetegirl1.jpg';"/>
+                            <figcaption>Conj. Rapariga - 30€</figcaption>
+                            <img class="mini" src="img/adicionar.png" alt="Adicionar Item" onclick="CarAdd('conjrapariga')">
+                        </figure>
+                    </th>
+                    <th>
+                        <figure>
+                            <img class="imgloja" src="img/babeteneutro1.jpg" onMouseOVer="this.src='img/babeteneutro2.jpg';"
+                                 onMouseOut="this.src='img/babeteneutro1.jpg';"/>
+                            <figcaption>Conj. Unissexo - 30€</figcaption>
+                            <img class="mini" src="img/adicionar.png" alt="Adicionar Item" onclick="CarAdd('conjneutro')">
+                        </figure>
+                    </th>
+                </tr>
+            </table>
+        </div>
+<!-- LOJA  ***********************   Almofadas  *******************************************************************  -->
+        <div class="barra star2" >
+            <h1 style="margin-top: 30px;" id="alm">Almofadas</h1>
+        </div>
+        <div class="barra cor">
+            <table class="prod">
+                <tr>
+                    <th>
+                        <figure>
+                            <img class="imgloja" src="img/almofada1.jpg" onMouseOVer="this.src='img/almofada2.jpg';"
+                                 onMouseOut="this.src='img/almofada1.jpg';"/>
+                            <figcaption>Almofada Red - 27€</figcaption>
+                            <img class="mini" src="img/adicionar.png" alt="Adicionar Item" onclick="CarAdd('almred')">
+                        </figure>
+                    </th>
+                    <th>
+                        <figure>
+                            <img class="imgloja" src="img/almofadaA1.jpg" onMouseOVer="this.src='img/almofadaA2.jpg';"
+                                 onMouseOut="this.src='img/almofadaA1.jpg';"/>
+                            <figcaption>Almofada Leaf - 35€</figcaption>
+                            <img class="mini" src="img/adicionar.png" alt="Adicionar Item" onclick="CarAdd('almleaf')">
+                        </figure>
+                    </th>
+                    <th>
+                        <figure>
+                            <img class="imgloja" src="img/almofadaB1.jpg" onMouseOVer="this.src='img/almofadaB2.jpg';"
+                                 onMouseOut="this.src='img/almofadaB1.jpg';"/>
+                            <figcaption>Amofada Afro - 28€</figcaption>
+                            <img class="mini" src="img/adicionar.png" alt="Adicionar Item" onclick="CarAdd('almafro')">
+                        </figure>
+                    </th>
+                </tr>
+            </table>
+        </div>
+        </div>
+<!-- FIM DA LOJA  ************************************************************************************************** -->
+        <div class="barra">
+            <br><br>
+            <h1>Estrela D'Art</h1>
+            <p>&nbsp;Realizado por Sónia Violante 1100135</p>
+        </div>
+
+</body>
+</html>
+
+<!-- Fim do ficheiro produtos.html********************************************************************************** -->

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Estrela D'art - Login</title>
+    <link href="estilo.css" rel="stylesheet">
+    <script src="cookies.js"></script>
+    <script src="login.js"></script>
+    <script src="carrinho.js"></script>
+    <script src="registo.js"></script>
+</head>
+<body>
+<!-- NAVEGAÇÃO  ------------------------------------------------------------------------------------------------------->
+<div id="header">
+    <a href="index.html">
+        <img class="logo" alt="Logotipo estrela" src="img/logo3.jpg"  onMouseOVer="this.src='img/starfish3.png';"
+             onMouseOut="this.src='img/logo3.jpg';"/>
+    </a>
+    <ul>
+        <li>
+            <a href="carrinho.html"> <img class="mini" style="margin-top: 40%" src="img/adicionar.png"></a>
+        </li>
+        <li>
+            <a href="inscricao.html"><p class="hiper">Registar na Estrela</p></a>
+        </li>
+        <li>
+            <a href="login.html"><p class="hiper">Login</p></a>
+        </li>
+        <li>
+            <a href="produtos.html"><p class="hiper">Os produtos da Estrela</p></a>
+        </li>
+    </ul>
+</div>
+<!-- LOGIN  ----------------------------------------------------------------------------------------------------------->
+    <div class="corpo">
+
+        <div class="coluna img">
+            <h1 style="margin-top: 30%">Bem vindo!</h1>
+        </div>
+
+        <div class="coluna2 cor">
+            <h1 style="margin-top: 15%">Faça Login na área de cliente:</h1>
+            <br>
+            <form class="formulario" name = "login" action = "index.html" onsubmit="return login();">
+                <label class="client">Nome de utilizador:  <input style="margin-left: 1%" type = "text"
+                                                                  name="username" size="20" maxlength="20"></label>
+                <br>
+                <br>
+                <label class="client">Password: <input style="margin-left: 8%" type = "password"
+                                                       name="password" size="20"></label>
+                <br>
+                <br>
+                <input class="client" type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </form>
+        </div>
+    </div>
+<!-- FIM DO LOGIN  ---------------------------------------------------------------------------------------------------->
+    <div class="barra">
+        <br><br>
+        <h1>Estrela D'Art</h1>
+        <p>&nbsp;Realizado por Sónia Violante 1100135</p>
+    </div>
+</body>
+</html>

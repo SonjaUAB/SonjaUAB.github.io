@@ -1,0 +1,209 @@
+/* ******************************************Sónia Violante, nº 1100135********************************************   */
+
+html {
+    line-height: 1.6;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    margin-top: 175px;
+    background-color: white;
+}
+
+ul {
+    font-family: Verdana;
+    font-size: 27px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+    margin-right: 30px;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+h1{
+    font-family: Verdana;
+    font-size: 50px;
+    text-align: center;
+}
+
+h3{
+     text-align: center;
+     margin-top: 20%;
+ }
+h4{
+    text-align: center;
+    margin-top: 5%;
+    font-size: large;
+}
+
+table{
+    margin-left: 20%;
+}
+
+table tr th {
+    text-align: right;
+    width: 20%;
+}
+
+table.prod{
+    margin-right: 25%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+
+/*Classes************************************************************************************************************ */
+/* Estilo da classe HEADER */
+#header {
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    float: left;
+    width: calc(100% - 20px);
+    background-color: white;
+}
+
+/* Estilo da classe LOGO */
+.logo {
+    float:left;
+    object-fit: contain;
+    width: 350px;
+    height: 150px;
+}
+
+/* Estilo da classe CORPO */
+.corpo{
+    margin-top: 100px;
+    width: 100%;
+}
+
+/* Estilo da classe BARRA */
+.barra{
+    padding: 20px;
+    text-align: center;
+    left: 0px;
+    float: left;
+    width: calc(100% - 20px);
+    background-color: white;
+}
+
+/* Estilo das classes associadas a imagens */
+.img{
+    background-image: url("img/linhas (2).jpg");
+    width: 600px;
+    height: 466px;
+}
+.img2{
+    background-image: url("img/linhas.jpg");
+}
+
+.social{
+    width: 70px;
+    height: 70px;
+
+}
+.star {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+}
+.star2{
+    background-image: url("Img/starfish4.png");
+}
+
+/* Estilo da classe COR */
+.cor {
+    background-color: #FFB6C1;
+}
+
+/* Estilo da classe HIPERSOCIAL */
+.hipersocial{
+    font-family: Verdana;
+    font-size: large;
+}
+
+/* Estilo da classe TEXTO */
+.texto{
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 15%;
+}
+
+/* Estilo das classes COLUNA */
+.coluna{
+    float: left;
+    margin-top: 2em;
+    width: 40%;
+    height: 470px;
+}
+
+.coluna2{
+    float: left;
+    margin-top: 2em;
+    width: 60%;
+    height: 470px;
+}
+
+.coluna3 {
+    float: left;
+    width: 33.3%;
+}
+
+/* Estilo da classe FRONT */
+.front{
+    font-family: Arial;
+    font-size: 26px;
+}
+
+/* Estilo da classe HIPER */
+.hiper{
+    color: black;
+    text-decoration-line: none;
+}
+
+.hiper:hover{
+    text-decoration-line: underline;
+    text-decoration-color: #FFB6C1;
+    text-shadow:30px 30px 30px 30px white;
+
+}
+
+/* Estilo de classes associadas a IMAGENS da loja */
+.imgloja {
+    float: contour;
+    object-fit: contain;
+    width: 320x;
+    height: 250px;
+}
+
+.mini {
+    width: 45px;
+    height: 45px;
+    border-radius: 20%;
+    border: 1px solid #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+/* Estilo da classe CLIENT */
+.client{
+    margin-left: 30%;
+}
+
+/* Fim do ficheiro estilo.css *************************************************************************************** */
